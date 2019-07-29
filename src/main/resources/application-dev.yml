@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /
+  port: 8081
+logging:
+  level:
+    #需要修改所需打印日志的包名
+    org.springframework: WARN
+    org.spring.springboot.dao: debug
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/girl?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456789
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+
+
