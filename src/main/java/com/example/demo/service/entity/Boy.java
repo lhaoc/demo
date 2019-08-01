@@ -20,6 +20,7 @@ public class Boy {
     private String name;
     private String sex;
 
+
     public Boy() {
 
     }
