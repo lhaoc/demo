@@ -13,13 +13,13 @@ import javax.persistence.Id;
  */
 @Entity
 public class Boy {
-
+//弄好就
     @Id
     @GeneratedValue
     private Integer id;
     private String name;
     private String sex;
-
+    private String phone;
 
     public Boy() {
 
